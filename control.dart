@@ -3,10 +3,10 @@ import 'dart:io';
 
 void main() {
   print("Enter first number: ");
-  int? num1 = int.parse(stdin.readLineSync()!);
+  var num1 = double.parse(stdin.readLineSync()!);
 
   print("Enter second number: ");
-  int? num2 = int.parse(stdin.readLineSync()!);
+  var num2 = double.parse(stdin.readLineSync()!);
 
   print("Select an operation (+, -, *, /): ");
   var operation = stdin.readLineSync()!;
